@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h1 id="daTruth">The Steelers are <span id=adjective>outstanding.</span></h1>
+        <input type="button" value="Click me!" onclick="alert('sike The Steelers trash asf')" />
+        <input type="button" value="activate" onclick="chillin()"/>
+        <input type="button" value="Steelers" onclick="changeSentence()"/>
+        <input type="button" value="The steelers are ..." onclick="changeAdjective()"/>
+    </body>
+    <script>
+        function chillin(){
+            alert("This code is chillin at the bottom, waiting to be called.")
+        }
+        
+        
+       function changeSentence(){
+        document.getElementById("daTruth").innerHTML = " Big Ben is ton 10 QB's all time"       
+        
+       }
+          function changeAdjective(){
+              var newWord = prompt("Give me a new word to describe the steelers:");
+              document.getElementById("adjective").innerHTML = "newWord";
+          }
+         </script>
+        
+    
+    
+</html>
